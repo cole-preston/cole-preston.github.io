@@ -11,7 +11,7 @@ I'm an undergraduate at the University of California, Santa Cruz, studying Mathe
 
 My central interest is the geoeconomics of East Asia: how political institutions, regional relationships, and great-power competition shape trade, industrial strategy, and growth. In a paper for Professor K.C. Fung's course on the economies of East and Southeast Asia, I examined how Japan has advanced its strategic and economic interests amid renewed U.S. tariffs and the U.S.–China trade war.
 
-My background in mathematics gives me a solid foundation for analyzing economic questions with structure and precision, which I apply to trade, economic policy, and the political dynamics of the region. On the empirical side, I work mainly in R and Python, with coursework in econometrics and regression analysis.
+My background in mathematics gives me a solid foundation for analyzing economic questions with structure and precision, which I aim to apply to trade, economic policy, and the political dynamics of the region. On the empirical side, I work mainly in R and Python, with coursework in econometrics and regression analysis.
 
 Outside the classroom, I lead the technology, media, and telecom sector at the UCSC Investment Fund, where our covered positions returned 112%, the fund's top-performing sector. I also serve as Co-President of the UCSC Investment Banking Academy. This work keeps me connected to how macroeconomic, regulatory, and supply-chain shifts play out in real markets.
 
