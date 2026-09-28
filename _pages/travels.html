@@ -1,0 +1,96 @@
+---
+layout: single
+title: "Travels"
+permalink: /travels/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% comment %} Entries come from _data/travels.yml; placeholders only render in local development. {% endcomment %}
+{% if site.data.travels %}
+  {% assign trips = site.data.travels | sort: "date" | reverse %}
+{% else %}
+  {% assign trips = "" | split: "" %}
+{% endif %}
+{% unless jekyll.environment == "development" %}
+  {% assign trips = trips | where_exp: "t", "t.placeholder != true" %}
+{% endunless %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<style>
+  #travel-map { height: 400px; width: 100%; border: 1px solid var(--global-border-color); border-radius: 4px; margin-bottom: 1.5em; z-index: 0; }
+  .travel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.25em; }
+  .travel-card { border: 1px solid var(--global-border-color); border-radius: 4px; overflow: hidden; background: var(--global-bg-color); display: flex; flex-direction: column; }
+  .travel-card img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; margin: 0; }
+  .travel-card__body { padding: 0.75em 1em 1em; }
+  .travel-card__title { font-size: 1em; margin: 0 0 0.25em; }
+  .travel-card__meta { font-size: 0.8em; color: var(--global-text-color-light); margin: 0 0 0.5em; }
+  .travel-card__caption { font-size: 0.85em; margin: 0; }
+  .travel-card--placeholder { border-style: dashed; }
+</style>
+
+<div id="travel-map" role="region" aria-label="Map of places visited"></div>
+
+{% if trips.size == 0 %}
+<p><em>First trips coming soon.</em></p>
+{% endif %}
+
+<div class="travel-grid">
+{% for trip in trips %}
+  {% if trip.date contains "YYYY" %}{% assign when = trip.date %}{% else %}{% assign when = trip.date | append: "-01" | date: "%b %Y" %}{% endif %}
+  <article class="travel-card{% if trip.placeholder %} travel-card--placeholder{% endif %}">
+    {% if trip.photo %}
+    <img src="{{ base_path }}/images/travels/{{ trip.photo }}" alt="{{ trip.photo_alt | default: trip.name | escape }}" loading="lazy">
+    {% endif %}
+    <div class="travel-card__body">
+      <h3 class="travel-card__title">{{ trip.name | escape }}</h3>
+      <p class="travel-card__meta">{{ trip.region | escape }}{% if trip.region and trip.country %}, {% endif %}{{ trip.country | escape }} · {{ when }}</p>
+      {% if trip.caption %}<p class="travel-card__caption">{{ trip.caption | escape }}</p>{% endif %}
+    </div>
+  </article>
+{% endfor %}
+</div>
+
+<script>
+  (function () {
+    var trips = {{ trips | jsonify }};
+    var map = L.map("travel-map", { scrollWheelZoom: false });
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+    }).addTo(map);
+
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    function formatDate(d) {
+      var m = /^(\d{4})-(\d{2})$/.exec(d || "");
+      return m ? months[parseInt(m[2], 10) - 1] + " " + m[1] : (d || "");
+    }
+    function line(tag, text) {
+      var el = document.createElement(tag);
+      el.textContent = text;
+      return el;
+    }
+
+    var points = [];
+    trips.forEach(function (t) {
+      if (typeof t.lat !== "number" || typeof t.lng !== "number") { return; }
+      var popup = document.createElement("div");
+      popup.appendChild(line("strong", t.name));
+      popup.appendChild(document.createElement("br"));
+      popup.appendChild(line("span", [t.region, t.country].filter(Boolean).join(", ")));
+      popup.appendChild(document.createElement("br"));
+      popup.appendChild(line("span", formatDate(t.date)));
+      L.marker([t.lat, t.lng]).addTo(map).bindPopup(popup);
+      points.push([t.lat, t.lng]);
+    });
+
+    if (points.length > 0) {
+      map.fitBounds(points, { padding: [40, 40], maxZoom: 9 });
+    } else {
+      map.setView([36.2, 138.25], 5);
+    }
+  })();
+</script>

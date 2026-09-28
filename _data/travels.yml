@@ -1,0 +1,93 @@
+# Travels: each entry below becomes a map pin and a photo card on /travels/.
+#
+# To add an entry:
+#   1. Copy the placeholder entry below and fill in every field.
+#      date is "YYYY-MM" in quotes (cards are sorted newest first).
+#      lat/lng are decimal degrees (right-click a spot in Google Maps to copy them).
+#   2. Photo (optional): strip metadata and resize it first, then put it in images/travels/:
+#        python3 scripts/prep_photo.py ~/Desktop/original.jpg images/travels/short-name.jpg
+#      (prep_photo.py removes EXIF/GPS and resizes to at most 1600px wide; it needs Pillow: pip install Pillow)
+#      Set photo to the file name only, e.g. photo: "short-name.jpg", and describe it in photo_alt.
+#   3. Remove the "placeholder: true" line. Entries with placeholder: true only show up
+#      when you preview locally (bundle exec jekyll serve); they never appear on the live site.
+
+- name: "[PLACEHOLDER] Place name — copy this entry"
+  region: "Region / prefecture"
+  country: "Country"
+  date: "YYYY-MM"
+  lat: 0
+  lng: 0
+  photo:                    # optional, e.g. "short-name.jpg" (file in images/travels/)
+  photo_alt:                # short description of the photo, for screen readers
+  caption: "One or two sentences about the trip."
+  placeholder: true
+
+- name: "Half Dome"
+  region: "Yosemite National Park, California"
+  country: "USA"
+  date: "2025-07"
+  lat: 37.7459
+  lng: -119.5332
+  photo: "half-dome.jpg"
+  photo_alt: "A hiker in a yellow shirt pulling up the steel cables on Half Dome's granite, with forested ridges and the High Sierra behind."
+  caption: "Climbed the cables to the summit of Half Dome, with the High Sierra stretching out behind."
+
+- name: "Pinnacles National Park"
+  region: "California"
+  country: "USA"
+  date: "2023-06"
+  lat: 36.4906
+  lng: -121.1825
+  photo: "pinnacles.jpg"
+  photo_alt: "Dark volcanic rock spires and pines above green valleys and distant hills under a cloudy sky."
+  caption: "Looking out over the valleys from the rock spires of Pinnacles."
+
+- name: "Mammoth Mountain"
+  region: "California"
+  country: "USA"
+  date: "2023-07"
+  lat: 37.6308
+  lng: -119.0326
+  photo: "mammoth-mountain.jpg"
+  photo_alt: "A skier silhouetted on a snowy summit slope, looking out over the Owens Valley under sunlit clouds."
+  caption: "Skiing in July, after the record 2022–23 winter kept Mammoth open into summer."
+
+- name: "Yosemite Falls"
+  region: "Yosemite National Park, California"
+  country: "USA"
+  date: "2026-03"
+  lat: 37.7566
+  lng: -119.5969
+  photo: "yosemite-falls.jpg"
+  photo_alt: "Whitewater pouring over the granite lip at the top of Yosemite Falls, with Yosemite Valley far below."
+  caption: "Yosemite Falls in early spring, when the snowmelt has it running strong."
+
+- name: "Tahoe Rim Trail"
+  region: "Mt. Rose, Nevada"
+  country: "USA"
+  date: "2026-06"
+  lat: 39.3438
+  lng: -119.918
+  photo: "tahoe-rim-trail.jpg"
+  photo_alt: "Lake Tahoe's blue water seen from a pine-covered slope, with snow-dusted peaks across the lake."
+  caption: "Near Mt. Rose during my thru-hike of the Tahoe Rim Trail, the roughly 165-mile loop around Lake Tahoe."
+
+- name: "Musashi-Kosugi"
+  region: "Kawasaki, Kanagawa"
+  country: "Japan"
+  date: "2026-09"
+  lat: 35.5764
+  lng: 139.6597
+  photo: "musashi-kosugi.jpg"
+  photo_alt: "A rain-wet cobblestone alley at night, lined with glowing Japanese restaurant signs and banners."
+  caption: "Exploring Kawasaki during my first weeks in Japan."
+
+- name: "Tokyo Tower"
+  region: "Minato, Tokyo"
+  country: "Japan"
+  date: "2026-09"
+  lat: 35.6586
+  lng: 139.7454
+  photo: "tokyo-tower.jpg"
+  photo_alt: "Tokyo Tower's red and white lattice rising above dark green trees under an overcast sky."
+  caption: "Tokyo Tower, one of my first stops in the city."
