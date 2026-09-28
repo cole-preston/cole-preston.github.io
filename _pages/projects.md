@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Class papers, data projects, and short essays, mostly on East Asian economics.
+Selected papers on trade, economic history, and economic policy, with a focus on East Asia.
 
 {% assign sections = "paper:Papers|data:Data Projects|essay:Essays" | split: "|" %}
 {% assign all_projects = site.projects | sort: "date" | reverse %}
