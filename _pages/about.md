@@ -13,7 +13,7 @@ My central interest is the geoeconomics of East Asia: how political institutions
 
 My background in mathematics gives me a solid foundation for analyzing economic questions with structure and precision, which I aim to apply to trade, economic policy, and the political dynamics of the region. On the empirical side, I work mainly in R and Python, with coursework in econometrics and regression analysis.
 
-At UCSC, I led the technology, media, and telecom sector at the UCSC Investment Fund, where our covered positions returned 112%, the fund's top-performing sector. I also served as Co-President of the UCSC Investment Banking Academy, and I now advise its executive team while I'm abroad. This work gave me hands-on experience connecting macroeconomic, regulatory, and supply-chain developments to real investment decisions.
+At UCSC, I led the technology, media, and telecom sector at the UCSC Investment Fund from October 2025 to June 2026, during which our covered positions returned 112%, the fund's top-performing sector. I also served as Co-President of the UCSC Investment Banking Academy, and I now advise its executive team while I'm abroad. This work gave me hands-on experience connecting macroeconomic, regulatory, and supply-chain developments to real investment decisions.
 
 I hope to pursue graduate study in economics, with the long-term goal of researching the political economy of trade and industrial policy in East Asia.
 
