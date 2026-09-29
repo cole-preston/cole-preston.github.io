@@ -3,25 +3,61 @@ layout: single
 title: "Reading"
 permalink: /reading/
 author_profile: true
+# Covers live in images/books/ (about 300px tall, metadata stripped).
+# Leave cover blank to show a plain title block instead.
+currently_reading:
+  - title: "How Asia Works"
+    author: "Joe Studwell"
+    cover: "how-asia-works.jpg"
+  - title: "The Prize: The Epic Quest for Oil, Money, and Power"
+    author: "Daniel Yergin"
+    cover: "the-prize.jpg"
+  - title: "The Brothers Karamazov"
+    author: "Fyodor Dostoevsky"
+    cover: "the-brothers-karamazov.jpg"
+read:
+  - title: "Capitalism and Freedom"
+    author: "Milton Friedman"
+    cover: "capitalism-and-freedom.jpg"
+  - title: "Crime and Punishment"
+    author: "Fyodor Dostoevsky"
+    cover: "crime-and-punishment.jpg"
+  - title: "The Stranger"
+    author: "Albert Camus"
+    cover: "the-stranger.jpg"
+  - title: "1984"
+    author: "George Orwell"
+    cover: "1984.jpg"
+up_next:
+  - title: "MITI and the Japanese Miracle"
+    author: "Chalmers Johnson"
+    cover: "miti-and-the-japanese-miracle.jpg"
+  - title: "Dilemmas of a Trading Nation"
+    author: "Mireya Solís"
+    cover:
+  - title: "Gödel, Escher, Bach: An Eternal Golden Braid"
+    author: "Douglas Hofstadter"
+    cover: "godel-escher-bach.jpg"
 ---
 
-Books I've read, am reading, and plan to read, mostly on economics, East Asia, and history, with some literature along the way.
+{% include base_path %}
 
-## Currently Reading
+Books I've read, am reading, and plan to read.
 
-- *How Asia Works*, Joe Studwell: the argument that land reform, export discipline, and financial control explain which Asian economies took off and which stalled.
-- *The Prize: The Epic Quest for Oil, Money, and Power*, Daniel Yergin: a history of oil as the thread connecting business, geopolitics, and war across the twentieth century.
-- *The Brothers Karamazov*, Fyodor Dostoevsky: a family drama built around questions of faith, freedom, and moral responsibility.
+{% assign sections = "currently_reading:Currently Reading|read:Read|up_next:Up Next" | split: "|" %}
+{% for section in sections %}
+{% assign parts = section | split: ":" %}
+{% assign key = parts[0] %}
+{% assign books = page[key] %}
 
-## Read
+## {{ parts[1] }}
 
-- *Capitalism and Freedom*, Milton Friedman: the case that economic freedom is a precondition for political freedom, and a clear starting point for thinking about government's role in markets.
-- *Crime and Punishment*, Fyodor Dostoevsky: how a man talks himself into a crime, and what that reasoning costs him.
-- *The Stranger*, Albert Camus: a detached narrator whose trial ends up judging his indifference more than his crime.
-- *1984*, George Orwell: how power sustains itself by controlling information and language.
-
-## Up Next
-
-- *MITI and the Japanese Miracle*, Chalmers Johnson: the classic account of Japan's developmental state and a natural follow-up to *How Asia Works*.
-- *Dilemmas of a Trading Nation*, Mireya Solís: Japan's trade strategy and the TPP, the same questions behind my paper on Japan and U.S. tariffs.
-- *Gödel, Escher, Bach: An Eternal Golden Braid*, Douglas Hofstadter: self-reference, formal systems, and minds, where my math background meets bigger questions.
+<div class="book-grid">
+{% for book in books %}
+<figure class="book-card">
+{% if book.cover %}<img class="book-card__cover" src="{{ base_path }}/images/books/{{ book.cover }}" alt="Cover of {{ book.title | escape }}" loading="lazy">{% else %}<div class="book-card__cover book-card__cover--blank" role="img" aria-label="Cover of {{ book.title | escape }}"><span>{{ book.title | escape }}</span></div>{% endif %}
+<figcaption><cite>{{ book.title | escape }}</cite><span class="book-card__author">{{ book.author | escape }}</span></figcaption>
+</figure>
+{% endfor %}
+</div>
+{% endfor %}
