@@ -87,3 +87,27 @@
   font-size: 0.85em;
   opacity: 0.6;
 }
+
+/* Dark-only site: lighter shade of the theme teal so links reach at least 4.5:1
+   on the #474747 background (the theme's #0ea1c5 is about 3:1). Hover goes
+   lighter, not darker, so it stays readable too. */
+
+$link-readable: mix(#fff, #0ea1c5, 40%);
+$link-readable-hover: mix(#fff, #0ea1c5, 65%);
+
+html[data-theme="dark"] {
+  --global-link-color: #{$link-readable};
+  --global-link-color-hover: #{$link-readable-hover};
+  --global-link-color-visited: #{$link-readable};
+  --global-masthead-link-color-hover: #{$link-readable};
+}
+
+/* "Download PDF" button: same lighter teal, with dark text for contrast */
+.btn--primary {
+  color: #1f2224 !important;
+  background-color: $link-readable;
+
+  &:hover {
+    background-color: $link-readable-hover;
+  }
+}

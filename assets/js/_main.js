@@ -12,23 +12,15 @@ const MERMAID_URL = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.mi
 // Detect OS/browser preference
 const browserPref = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-// Determine the computed theme, which can be "dark" or "light".
+// The site is dark-only: ignore any stored choice and the OS/browser preference.
 function determineComputedTheme() {
-  // Determine the expected state of the theme toggle, which can be "dark", "light", or default "system"
-  let themeSetting = localStorage.getItem("theme");
-  themeSetting = (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
-
-  // Return the setting if set, or use the browser preference
-  if (themeSetting != "system") {
-    return themeSetting;
-  }
-  return browserPref ? "dark" : "light";
+  return "dark";
 }
 
 // Set the theme on page load or when explicitly called. Without an argument the
 // theme is the stored preference or, failing that, the OS/browser preference.
 function setTheme(theme) {
-  const use_theme = theme || determineComputedTheme();
+  const use_theme = "dark";  // dark-only site: any requested theme is ignored
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
