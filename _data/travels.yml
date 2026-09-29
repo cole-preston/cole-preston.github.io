@@ -45,12 +45,12 @@
 - name: "Mammoth Mountain"
   region: "California"
   country: "USA"
-  date: "2023-07"
+  date: "2025-11"
   lat: 37.6308
   lng: -119.0326
   photo: "mammoth-mountain.jpg"
-  photo_alt: "A skier silhouetted on a snowy summit slope, looking out over the Owens Valley under sunlit clouds."
-  caption: "Skiing in July, after the record 2022–23 winter kept Mammoth open into summer."
+  photo_alt: "A skier's long shadow and orange ski tips on a groomed slope, looking down over the base area toward snow-capped peaks under a clear blue sky."
+  caption: "Thanksgiving weekend on the slopes at Mammoth Mountain."
 
 - name: "Yosemite Falls"
   region: "Yosemite National Park, California"
