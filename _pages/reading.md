@@ -14,6 +14,7 @@ currently_reading:
     cover: "the-prize.jpg"
   - title: "The Brothers Karamazov"
     author: "Fyodor Dostoevsky"
+    translator: "Richard Pevear and Larissa Volokhonsky"
     cover: "the-brothers-karamazov.jpg"
 read:
   - title: "Capitalism and Freedom"
@@ -56,7 +57,7 @@ Books I've read, am reading, and plan to read.
 {% for book in books %}
 <figure class="book-card">
 {% if book.cover %}<img class="book-card__cover" src="{{ base_path }}/images/books/{{ book.cover }}" alt="Cover of {{ book.title | escape }}" loading="lazy">{% else %}<div class="book-card__cover book-card__cover--blank" role="img" aria-label="Cover of {{ book.title | escape }}"><span>{{ book.title | escape }}</span></div>{% endif %}
-<figcaption><cite>{{ book.title | escape }}</cite><span class="book-card__author">{{ book.author | escape }}</span></figcaption>
+<figcaption><cite>{{ book.title | escape }}</cite><span class="book-card__author">{{ book.author | escape }}</span>{% if book.translator %}<span class="book-card__translator">trans. {{ book.translator | escape }}</span>{% endif %}</figcaption>
 </figure>
 {% endfor %}
 </div>

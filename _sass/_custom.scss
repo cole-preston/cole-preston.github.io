@@ -6,32 +6,40 @@
 
 .book-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 1.5em 1.25em;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 1.5em 1em;
+  width: 100%;
+  max-width: 100%;
   margin: 0 0 2em;
+  align-items: start;
 }
 
+/* Override the theme's figure styles (flex + space-between pushed captions down). */
 .book-card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  min-width: 0;
   margin: 0;
   padding: 0;
 }
 
+/* Every cover (and the fallback) gets the same 2:3 box. */
 .book-card__cover {
   display: block;
-  height: 150px;
-  width: auto;
-  max-width: 100%;
-  margin: 0 0 0.5em;
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  margin: 0 0 8px;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
-  object-fit: cover;
 }
 
 .book-card__cover--blank {
-  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,12 +53,15 @@
 }
 
 .book-card figcaption {
+  width: 100%;
+  max-width: 120px;
   margin: 0;
   padding: 0;
   font-size: 0.7em;
   line-height: 1.35;
   text-align: left;
   color: var(--global-text-color);
+  overflow-wrap: break-word;
 }
 
 .book-card cite {
@@ -58,7 +69,14 @@
   font-style: italic;
 }
 
-.book-card__author {
+.book-card__author,
+.book-card__translator {
   display: block;
   color: var(--global-text-color-light);
+}
+
+.book-card__translator {
+  margin-top: 0.15em;
+  font-size: 0.9em;
+  opacity: 0.85;
 }
