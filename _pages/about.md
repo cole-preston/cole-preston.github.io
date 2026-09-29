@@ -9,7 +9,7 @@ redirect_from:
 
 I'm an undergraduate at the University of California, Santa Cruz, studying Mathematics and Economics with a minor in East Asian Studies. I'm spending the 2026–27 academic year at Keio University in Tokyo through the UCEAP Keio International Program, supported by the UCEAP Duttenhaver Scholarship and UCEAP Global Scholarship. My coursework there focuses on East Asian economies, international trade, economic policy, political economy, and Japanese. I came to UCSC after graduating magna cum laude from De Anza College.
 
-My central interest is the geoeconomics of East Asia: how political institutions, regional relationships, and great-power competition shape trade, industrial strategy, and growth. In a paper for Professor K.C. Fung's course on the economies of East and Southeast Asia, I examined how Japan has advanced its strategic and economic interests amid renewed U.S. tariffs and the U.S.–China trade war.
+My central interest is the geoeconomics of East Asia: how political institutions, regional relationships, and great-power competition shape trade, industrial strategy, and growth. For Professor K.C. Fung's course on East and Southeast Asian economies, I wrote on how Japan has navigated renewed U.S. tariffs and the U.S.–China trade war; that paper and others are under [Projects & Writing](/projects/).
 
 My background in mathematics gives me a solid foundation for analyzing economic questions with structure and precision, which I aim to apply to trade, economic policy, and the political dynamics of the region. On the empirical side, I work mainly in R and Python, with coursework in econometrics and regression analysis.
 
