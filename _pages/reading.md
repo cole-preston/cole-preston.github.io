@@ -44,7 +44,7 @@ up_next:
 
 {% include base_path %}
 
-Selected books I've read, am reading, and plan to read.
+Selected books I've read, am currently reading, and plan to read.
 
 {% assign sections = "currently_reading:Currently Reading|read:Read|up_next:Up Next" | split: "|" %}
 {% for section in sections %}
