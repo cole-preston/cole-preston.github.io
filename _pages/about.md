@@ -23,6 +23,6 @@ Outside of academics, I spend as much time outdoors as I can, mainly skiing and 
 
 * **Studying:** Japanese foreign policy, competition policy, public policy, and China–Japan relations at Keio University (UCEAP, 2026–27)
 * **Learning:** Japanese (beginner)
-* **Thinking about:** how Japan balances its economic ties to China against its security alliance with the United States
+* **Thinking about:** How Japan balances its economic ties to China against its security alliance with the United States
 
 I'm always glad to connect with students, researchers, and professionals interested in East Asian trade and economic policy. Feel free to reach out by [email](mailto:officialcolepreston@gmail.com).
