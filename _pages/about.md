@@ -26,4 +26,4 @@ Outside of academics, I spend as much time outdoors as I can, mainly skiing and 
 * **Thinking about:** How Japan balances its economic ties to China against its security alliance with the United States
 * **Exploring:** Tokyo, one neighborhood at a time
 
-I always enjoy connecting with, talking to, and learning from people interested in East Asian trade and economic policy. Feel free to reach out by [email](mailto:officialcolepreston@gmail.com).
+I always enjoy connecting with, talking to, and especially learning from people interested in East Asian trade and economic policy. Feel free to reach out by [email](mailto:officialcolepreston@gmail.com).
