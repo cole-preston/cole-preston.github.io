@@ -30,7 +30,7 @@
   lng: -119.5332
   photo: "half-dome.jpg"
   photo_alt: "A hiker in a yellow shirt pulling up the steel cables on Half Dome's granite, with forested ridges and the High Sierra behind."
-  caption: "Climbed the cables to the summit of Half Dome, with the High Sierra stretching out behind."
+  caption: "Climbed the cables to the summit of Half Dome, with the High Sierra in the background."
 
 - name: "Pinnacles National Park"
   region: "California"
@@ -91,3 +91,33 @@
   photo: "tokyo-tower.jpg"
   photo_alt: "Tokyo Tower's red and white lattice rising above dark green trees under an overcast sky."
   caption: "Tokyo Tower, one of my first stops in the city."
+
+- name: "Meiji Jingu"
+  region: "Shibuya, Tokyo"
+  country: "Japan"
+  date: "2026-09"
+  lat: 35.6764
+  lng: 139.6993
+  photo: "meiji-jingu.jpg"
+  photo_alt: "The tall wooden torii gate at Meiji Jingu, framed by dense green trees, with visitors walking across the wet gravel courtyard."
+  caption: "The great torii at Meiji Jingu, one of my first stops after arriving in Tokyo."
+
+- name: "Palisades Tahoe"
+  region: "Olympic Valley, California"
+  country: "USA"
+  date: "2023-03"
+  lat: 39.1970
+  lng: -120.2357
+  photo: "palisades-tahoe.jpg"
+  photo_alt: "Snow-covered ski slopes and a chairlift under a clear blue sky, with Lake Tahoe and distant mountains on the horizon."
+  caption: "A bluebird day at Palisades Tahoe, with Lake Tahoe in the distance."
+
+- name: "Kirkwood Mountain Resort"
+  region: "California"
+  country: "USA"
+  date: "2024-03"
+  lat: 38.6850
+  lng: -120.0654
+  photo: "kirkwood.jpg"
+  photo_alt: "Two large snow-dusted rock formations with a narrow snow chute between them, above a fresh powder slope in thick fog."
+  caption: "The Heart Chute at Kirkwood on a foggy powder day."
