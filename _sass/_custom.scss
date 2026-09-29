@@ -111,3 +111,9 @@ html[data-theme="dark"] {
     background-color: $link-readable-hover;
   }
 }
+
+/* No underline on the button (the theme underlines all links in page content) */
+a.btn--primary,
+a.btn--primary:hover {
+  text-decoration: none;
+}
