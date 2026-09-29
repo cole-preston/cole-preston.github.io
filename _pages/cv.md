@@ -28,19 +28,20 @@ Education
 Experience
 ======
 
-**TMT Sector Head** · Oct. 2025 – Present  
-*UCSC Investment Fund* — Santa Cruz, CA
-* Lead TMT sector group for SCIF's student-managed investment fund, delivering a 112% gain across covered positions and ranking as the fund's top-performing sector
-* Direct weekly sector research meetings covering technology, media, and telecommunications companies, including valuation drivers, competitive positioning, and market trends
-* Evaluate macroeconomic, geopolitical, regulatory, supply chain, and interest rate developments to assess sector risks and support investment recommendations
-
-**Co-President** · Oct. 2025 – Present  
+**Advisor, formerly Co-President** · Nov. 2025 – Present  
 *UCSC Investment Banking Academy* — Santa Cruz, CA
-* Lead club operations by coordinating weekly meeting agendas, assigning member presentation roles, and organizing finance, valuation, and market discussion topics
-* Delegate responsibilities across members to coordinate research, meeting preparation, presentation development, and club-wide programming
-* Review and refine presentation materials before meetings to ensure analytical accuracy, clear communication, and professional-quality delivery
+* Advise the executive team and board remotely while studying abroad, providing strategic guidance and organizational continuity (Jun. 2026 – Present)
+* As Co-President (Nov. 2025 – Jun. 2026), led club operations by coordinating weekly meeting agendas, assigning member presentation roles, and organizing finance, valuation, and market discussion topics
+* Delegated responsibilities across members to coordinate research, meeting preparation, presentation development, and club-wide programming
+* Reviewed and refined presentation materials before meetings to ensure analytical accuracy, clear communication, and professional-quality delivery
 
-**Head of Equity Research** · Mar. 2025 – Dec. 2025  
+**TMT Sector Head** · Oct. 2025 – Jun. 2026  
+*UCSC Investment Fund* — Santa Cruz, CA
+* Led the TMT sector group for SCIF's student-managed investment fund, delivering a 112% gain across covered positions and ranking as the fund's top-performing sector
+* Directed weekly sector research meetings covering technology, media, and telecommunications companies, including valuation drivers, competitive positioning, and market trends
+* Evaluated macroeconomic, geopolitical, regulatory, supply chain, and interest rate developments to assess sector risks and support investment recommendations
+
+**Head of Equity Research** · Mar. 2025 – Nov. 2025  
 *UCSC Investment Banking Academy* — Santa Cruz, CA
 * Organized workshops on equity research, financial statement analysis, valuation modeling, market research, and investment thesis development
 * Researched market catalysts including trade policy, energy prices, monetary policy, supply chains, inflation, interest rates, and geopolitical risk
