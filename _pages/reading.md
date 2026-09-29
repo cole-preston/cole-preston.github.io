@@ -22,6 +22,7 @@ read:
     cover: "capitalism-and-freedom.jpg"
   - title: "Crime and Punishment"
     author: "Fyodor Dostoevsky"
+    translator: "Richard Pevear and Larissa Volokhonsky"
     cover: "crime-and-punishment.jpg"
   - title: "The Stranger"
     author: "Albert Camus"
@@ -35,7 +36,7 @@ up_next:
     cover: "miti-and-the-japanese-miracle.jpg"
   - title: "Dilemmas of a Trading Nation"
     author: "Mireya Solís"
-    cover:
+    cover: "dilemmas-of-a-trading-nation.jpg"
   - title: "Gödel, Escher, Bach: An Eternal Golden Braid"
     author: "Douglas Hofstadter"
     cover: "godel-escher-bach.jpg"
