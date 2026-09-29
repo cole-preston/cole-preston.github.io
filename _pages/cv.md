@@ -32,8 +32,7 @@ Experience
 *UCSC Investment Banking Academy* — Santa Cruz, CA
 * Advise the executive team and board remotely while studying abroad, providing strategic guidance and organizational continuity (Jun. 2026 – Present)
 * As Co-President (Nov. 2025 – Jun. 2026), led club operations by coordinating weekly meeting agendas, assigning member presentation roles, and organizing finance, valuation, and market discussion topics
-* Delegated responsibilities across members to coordinate research, meeting preparation, presentation development, and club-wide programming
-* Reviewed and refined presentation materials before meetings to ensure analytical accuracy, clear communication, and professional-quality delivery
+* Delegated research, meeting preparation, and presentation development across members, and reviewed materials for analytical accuracy and professional-quality delivery
 
 **TMT Sector Head** · Oct. 2025 – Jun. 2026  
 *UCSC Investment Fund* — Santa Cruz, CA
@@ -54,7 +53,6 @@ Experience
 Skills
 ======
 
-* **Research & Interests:** Macroeconomic Analysis, International Trade, East Asian Political Economy, Policy Research, Geopolitical Risk Analysis
 * **Data & Technical:** Python, R, Econometrics, Regression Analysis, Data Analysis
 * **Finance:** Financial Statement Analysis, DCF Valuation, Comparable Company Analysis, Precedent Transaction Analysis, Equity Research
 * **Personal Interests:** Skiing, Hiking, Coffee Brewing
