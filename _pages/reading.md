@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Reading"
+title: "Books"
 permalink: /reading/
 author_profile: true
 # Covers live in images/books/ (about 300px tall, metadata stripped).
