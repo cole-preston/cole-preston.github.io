@@ -7,7 +7,7 @@ excerpt: "Argues that Ming China's demand for silver, driven by the silverizatio
 paperurl: "/files/Chinese_Silver_Demand.pdf"
 ---
 
-*HIS 40A, UC Santa Cruz · June 2026*
+*Early Modern East Asia (HIS 40A), UC Santa Cruz · June 2026*
 
 Argues that Ming China's demand for silver, driven by the silverization of its tax system, was the organizing force behind the first global trade network, not European navigation. Tracing silver from Potosí and Iwami Ginzan to Chinese markets, it shows how the price gap between China and the rest of the world set the direction and timing of global silver flows.
 

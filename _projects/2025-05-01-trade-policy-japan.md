@@ -7,7 +7,7 @@ excerpt: "Examines how the second Trump administration's tariffs, export control
 paperurl: "/files/Trade_Policy_Japan.pdf"
 ---
 
-*ECON 149, UC Santa Cruz · May 2025*
+*The Economies of East and Southeast Asia (ECON 149), UC Santa Cruz · May 2025*
 
 Examines how the second Trump administration's tariffs, export controls, and pressure on Chinese tech and financial firms reshaped U.S.–China economic relations, and how Japan responded with restraint, regional trade diplomacy, and semiconductor investment to quietly advance its own strategic and economic interests.
 

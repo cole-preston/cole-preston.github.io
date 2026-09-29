@@ -7,7 +7,7 @@ excerpt: "Argues that the U.S. housing affordability crisis is a supply problem 
 paperurl: "/files/Housing_Supply_Reform.pdf"
 ---
 
-*ECON 197, UC Santa Cruz · May 2026*
+*Economic Rhetoric (ECON 197), UC Santa Cruz · May 2026*
 
 Argues that the U.S. housing affordability crisis is a supply problem and that rent control treats the symptom rather than the cause. Using St. Paul and Minneapolis as a natural experiment, it shows how St. Paul's 2021 rent control ordinance coincided with a collapse in new construction while Minneapolis kept building.
 
