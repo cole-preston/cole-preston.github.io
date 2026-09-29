@@ -143,7 +143,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 : "og-image.jpg" # Social media default site image (in /images/, 1200x630)
+og_image_alt             : "Cole Preston: Math & Economics @ UCSC, East Asian Economics, colepreston.me"
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
