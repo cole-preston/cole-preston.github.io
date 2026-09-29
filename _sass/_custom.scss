@@ -80,3 +80,10 @@
   font-size: 0.9em;
   opacity: 0.85;
 }
+
+/* Footer: de-emphasize the theme attribution (kept, just quieter) */
+
+.page__footer-copyright .footer-attribution {
+  font-size: 0.85em;
+  opacity: 0.6;
+}
