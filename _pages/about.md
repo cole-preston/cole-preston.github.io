@@ -21,7 +21,7 @@ Outside of academics, I spend as much time outdoors as I can, mainly skiing and 
 
 ## Currently
 
-* **Studying:** Japanese foreign policy, competition policy, public policy, and China–Japan relations at Keio University (UCEAP, 2026–27)
+* **Studying:** Japanese Foreign Policy, Competition Policy, Public Policy, and China–Japan Relations at Keio University (UCEAP, 2026–27)
 * **Learning:** Japanese (beginner)
 * **Thinking about:** How Japan balances its economic ties to China against its security alliance with the United States
 
