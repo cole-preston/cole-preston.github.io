@@ -22,7 +22,8 @@ Outside of academics, I spend as much time outdoors as I can, mainly skiing and 
 ## Currently
 
 * **Studying:** Japanese Foreign Policy, Competition Policy, Public Policy, and China–Japan Relations at Keio University (UCEAP, 2026–27)
-* **Learning:** Japanese (beginner)
+* **Learning:** Japanese (beginner), through Keio's Center for Japanese Studies
 * **Thinking about:** How Japan balances its economic ties to China against its security alliance with the United States
+* **Exploring:** Tokyo, one neighborhood at a time
 
 I always enjoy connecting with, talking to, and learning from people interested in East Asian trade and economic policy. Feel free to reach out by [email](mailto:officialcolepreston@gmail.com).
