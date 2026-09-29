@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an undergraduate at the University of California, Santa Cruz, studying Mathematics and Economics with a minor in East Asian Studies. I'm spending the 2026–27 academic year at Keio University in Tokyo through the UCEAP Keio International Program, supported by the UCEAP Duttenhaver Scholarship and UCEAP Global Scholarship. My coursework there focuses on East Asian economies, international trade, economic policy, political economy, and Japanese. I came to UCSC after graduating magna cum laude from De Anza College.
+I'm an undergraduate at the University of California, Santa Cruz, studying Mathematics and Economics with a minor in East Asian Studies. I'm spending the 2026–27 academic year at Keio University in Tokyo through the UCEAP Keio International Program, supported by the UCEAP Duttenhaver Scholarship and UCEAP Global Scholarship. My coursework there focuses on Japanese and East Asian policy, international relations, and Japanese language. I came to UCSC after graduating magna cum laude from De Anza College.
 
 My central interest is the geoeconomics of East Asia: how political institutions, regional relationships, and great-power competition shape trade, industrial strategy, and growth. For Professor K.C. Fung's course on East and Southeast Asian economies, I wrote on how Japan has navigated renewed U.S. tariffs and the U.S.–China trade war; that paper and others are under [Projects & Writing](/projects/).
 
@@ -19,4 +19,10 @@ I hope to pursue graduate study in economics, with the long-term goal of researc
 
 Outside of academics, I spend as much time outdoors as I can, mainly skiing and hiking, and I'm looking forward to exploring both in Japan this year. I'm also a dedicated home coffee brewer. From 2018 to 2026, I coached at the Riekes Center for Human Enhancement in Menlo Park, helping athletes build strength, mobility, and long-term training habits.
 
-I'm always glad to connect with researchers, students, and others interested in Economics, specifically East Asian Economics.
+## Currently
+
+* **Studying:** Japanese foreign policy, competition policy, public policy, and China–Japan relations at Keio University (UCEAP, 2026–27)
+* **Learning:** Japanese (beginner)
+* **Thinking about:** how Japan balances its economic ties to China against its security alliance with the United States
+
+I'm always glad to talk about East Asian trade and economic policy. Feel free to reach out by [email](mailto:officialcolepreston@gmail.com).
