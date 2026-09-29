@@ -24,7 +24,7 @@ Education
 
 **Keio University** — Tokyo, Japan  
 *UCEAP Keio International Program* · Sept. 2026 – Aug. 2027
-* Focus: Japanese foreign policy, competition policy, public policy, China–Japan relations, money and banking, and Japanese language
+* Focus: Japanese Foreign Policy, Competition Policy, Public Policy, China–Japan Relations, Money and Banking, and Japanese Language
 * Honors: UCEAP Duttenhaver Scholarship; UCEAP Global Scholarship
 
 **De Anza College** — Cupertino, CA  
