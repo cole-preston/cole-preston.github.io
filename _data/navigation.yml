@@ -17,5 +17,8 @@ main:
   - title: "Projects & Writing"
     url: /projects/
 
+  - title: "Reading"
+    url: /reading/
+
   - title: "Travels"
     url: /travels/
