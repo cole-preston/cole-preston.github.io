@@ -17,7 +17,7 @@ At UCSC, I led the technology, media, and telecom sector at the UCSC Investment 
 
 I hope to pursue graduate study in economics, with the long-term goal of researching East Asian political economy, particularly international trade and industrial policy.
 
-Outside of academics, I spend as much time outdoors as I can. I've skied across the Sierra Nevada, from Palisades Tahoe and Kirkwood to Mammoth, and in June 2026 I set out to thru-hike the roughly 165-mile Tahoe Rim Trail until a broken foot ended the trip early. This year I'm looking forward to skiing and hiking in Japan. I'm also a dedicated home coffee brewer and enjoy reading, from economics and history to philosophical novels. Some of my favorite trips and books are on the [Travels](/travels/) and [Books](/reading/) pages.
+Outside of academics, I spend as much time outdoors as I can. I've skied across the Sierra Nevada, from Palisades Tahoe and Kirkwood to Mammoth, and in June 2026 I set out to thru-hike the roughly 165-mile Tahoe Rim Trail until a broken foot ended the trip early. This year I'm looking forward to skiing and hiking in Japan. I'm also a dedicated home coffee brewer, and I enjoy reading anything from economics and history to philosophical novels. Some of my favorite trips and books are on the [Travels](/travels/) and [Books](/reading/) pages.
 
 ## Currently
 
