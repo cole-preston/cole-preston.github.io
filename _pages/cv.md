@@ -14,7 +14,7 @@ redirect_from:
 Research Interests
 ======
 
-East Asian Political Economy, International Trade, Industrial Policy, Geoeconomics
+East Asian Political Economy, International Trade, Industrial Policy
 
 Education
 ======
