@@ -51,5 +51,5 @@ Skills
 ======
 
 * **Technical:** Python, R, Econometrics, Regression Analysis, Data Analysis
-* **Languages:** English (native); Japanese (beginner)
+* **Languages:** English (Native); Japanese (Elementary)
 * **Finance:** Financial Statement Analysis, DCF and Comparables Valuation, Equity Research

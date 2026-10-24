@@ -22,8 +22,8 @@ Outside of academics, I spend as much time outdoors as I can. I've skied across 
 ## Currently
 
 * **Studying:** Japanese Foreign Policy, Competition Policy, Public Policy, and China–Japan Relations at Keio University (UCEAP, 2026–27)
-* **Working On:** A joint research project mapping the AI and semiconductor value chain and its exposure to political and geopolitical risk
-* **Learning:** Japanese, through Keio's Center for Japanese Studies
+* **Working on:** A joint research project mapping the AI and semiconductor value chain and its exposure to political and geopolitical risk
+* **Learning:** Japanese (Elementary), through Keio's Center for Japanese Studies
 * **Thinking about:** How Japan is adapting its economy and industrial policy to an aging workforce
 * **Exploring:** Tokyo, one neighborhood at a time
 
